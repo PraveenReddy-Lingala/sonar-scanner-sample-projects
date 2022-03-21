@@ -3,6 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+  export PATH=$PATH:$HOME/.dotnet
+  export DOTNET_ROOT=$HOME/.dotnet
   production: false
 };
 
